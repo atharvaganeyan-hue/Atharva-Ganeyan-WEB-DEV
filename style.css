@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f8fc;
+    color: #333;
+}
+
+/* Header section */
+header {
+    background-color: #2c7da0;
+    color: white;
+    text-align: center;
+    padding: 25px 10px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+header h2 {
+    font-size: 21px;
+    font-weight: normal;
+}
+
+header p {
+    font-size: 16px;
+}
+
+/* Navigation bar */
+nav {
+    background-color: #164e63;
+    text-align: center;
+    padding: 15px 5px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 5px 8px;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #a8e6ff;
+    text-decoration: underline;
+}
+
+/* Main content */
+main {
+    width: 85%;
+    max-width: 1000px;
+    margin: 25px auto;
+}
+
+/* Content sections */
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border-left: 5px solid #2c7da0;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+section h2 {
+    color: #176b87;
+    margin-top: 0;
+}
+
+section p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Footer */
+footer {
+    background-color: #164e63;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 5px;
+    font-size: 14px;
+}
+
+/* Responsive design for mobile */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    header h2 {
+        font-size: 18px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 7px;
+    }
+
+    main {
+        width: 92%;
+    }
+
+    section {
+        padding: 15px;
+    }
+}
